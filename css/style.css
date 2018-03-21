@@ -36,9 +36,8 @@ margin-bottom:75px;
 }
 
 .navigation {
-  outline: 1px solid black;
-  margin-left:300px;
-
+    margin-left:300px;
+font-size:0px;
   padding:0px;
 
 }
@@ -61,7 +60,16 @@ margin-bottom:75px;
   font-size: 16px;
   color:black;
   font-weight: bold;
+}
 
+.navigation  .active {background:#DCDCDC;
+opacity:0.5;
+border-radius: 5px;
+}
+
+.navigation li:hover {
+
+  border-radius:5px;
 }
 
 .bin { position:relative;
