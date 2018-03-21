@@ -65,10 +65,11 @@ font-size:0px;
 .navigation  .active {background:#DCDCDC;
 opacity:0.5;
 border-radius: 5px;
+pointer-events: none;
 }
 
 .navigation li:hover {
-
+background:#DCDCDC;
   border-radius:5px;
 }
 
