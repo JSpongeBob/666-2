@@ -1,4 +1,4 @@
-body {
+body {margin-top:0px;
       font-size: 14px;
       font-family: 'Roboto', 'Arial', sans-serif;
 
@@ -18,7 +18,7 @@ background-color: #eeeeee;
 margin-bottom:75px;
 }
 
-.container {   
+.container {
   width:1100px;
   margin-left:auto;
   margin-right: auto;
@@ -44,6 +44,7 @@ margin-bottom:75px;
 }
 .navigation li {
   float:left;
+  font-size:16px;
   list-style-type: none;
   min-width:90px;
   min-height: 50px;
@@ -97,11 +98,11 @@ background: #eeeeee url('../img/cart-icon.png') no-repeat;
   float:left;
   width:400px;
   min-height:200px;
-  outline: 1px solid black;
+
 
 }
 
-.main-logo {outline: 1px solid black;
+.main-logo {
   margin-right: 0px;
 }
 
@@ -133,7 +134,7 @@ a.button {margin-top:40px;
   width:300px;
   min-height:350px;
   margin-right:100px;
-  outline: 1px solid black;
+
   margin-bottom:60px;
 }
 
@@ -167,7 +168,7 @@ a.yellow {
   background-color:#efc84a;
 }
 .info {
-  outline: 1px solid black;
+
   float:left;
   width:690px;
   min-height:400px;
@@ -201,7 +202,7 @@ margin-bottom:60px;}
   list-style-type: none;
 }
 .our-guaranatee {
-  outline: 1px solid black;
+
   float:right;
   width:360px;
   min-height:400px;
@@ -213,7 +214,7 @@ margin-bottom:60px;}
   .our-customers {
 position:relative;
     background-color: white;
-    outline: 1px solid black;
+
   margin-bottom:20px;
   height:180px;
   text-align: center;
@@ -222,8 +223,7 @@ position:relative;
 }
 
 .customer  {
-  outline: 1px solid black;
-  background-color: white;
+    background-color: white;
     display:inline-block;
     width:300px;
     height:100px;
@@ -247,7 +247,7 @@ position:relative;
 
 .social {
   float:left;
-  outline: 1px solid black;
+
  min-width:300px;
   min-height:80px;
   margin-right:130px;
@@ -259,7 +259,8 @@ position:relative;
 .social .social-btn {display:inline-block;
 font-size:0px;
 text-decoration:none;
-background: #e1e1e1 url("../img/social.png") no-repeat center;
+background: #D3D3D3 url("../img/social.png") no-repeat center;
+
 vertical-align: top;
 margin:10px;
 width:75px;
@@ -289,7 +290,7 @@ padding:30px;}
 
 .footer-info {width:500px;
   float:left;
-  outline: 1px solid black;
+
   min-height:80px;
 padding: 0px 15px;
 margin-right:0px;
@@ -312,15 +313,15 @@ margin-right:0px;
 
 
  header h1 {font-size: 55px;
-   background-color: red;
+
    text-align: center;
-   outline: 1px solid black;
+
    clear:both;
    font-weight: normal;
  }
 
- .filters {outline: 1px solid black;
-   background-color: red;
+ .filters {
+
    width:300px;
    min-height:2150px;
    float:left;
@@ -357,14 +358,17 @@ input[type="submit"] {display:inline-block;
 width:260px;
 font-size:16px;
 padding:10px 15px;
-background:#eeeeee;}
+background:#eeeeee;
+border: none;
+border-radius: 5px;
+}
 
 
 
 
 
    .filter-name {
-     outline: 1px solid black;
+
      text-align: left;
      width:140px;
      min-height: 20px;
@@ -378,7 +382,7 @@ background:#eeeeee;}
  width:400px;}
 
    .sort-by a {display: inline-block;
-     outline: 1px solid green;
+
    display: inline-block;
     min-height: 20px;
  color: #b2b2b2;
@@ -390,8 +394,8 @@ background:#eeeeee;}
   .sort-by .sort-active {color:black;}
 
    .sort-by {
-     outline: 1px solid yellow;
-     background-color: red;
+
+
       width:770px;
      min-height:90px;
      float:right;
@@ -399,18 +403,18 @@ background:#eeeeee;}
    }
 
 
-   .sort-by span {outline: 1px solid black;
+   .sort-by span {
 margin-left: 10px;
 margin-top:15px;
    }
 
-  .examples {outline: 1px solid black;
+  .examples {
     width:770px;
     float:right;
   }
 
    .web-sites {
-     outline: 1px solid black;
+
      display: inline-block;
      height:615px;
      width:360px;
@@ -444,7 +448,8 @@ margin-top:15px;
         }
         /*скрыть перед а полоску верхнюю*/
 .selected {
-  background:#eeeeee;
+  background:#DCDCDC;
+
 }
 
 
@@ -477,7 +482,7 @@ color: white;}
 
    .web-sites:nth-child(2n) {margin-right: 0px;}
 
-   .pages {outline: 1px solid black;
+   .pages {
    float:right;
    width:770px;
  height:100px;
@@ -513,7 +518,7 @@ line-height: 50px;}
 padding-right: 75px;}
 
    iframe {clear:both;
-     outline: 1px solid black;
+
         }
 
     .map {margin-left: auto;
