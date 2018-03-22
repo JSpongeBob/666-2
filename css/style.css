@@ -369,12 +369,11 @@ border-radius: 5px;
    }
 
 
-
-
   .examples {
     width:770px;
     float:right;
   }
+
 
    .web-sites {
 
@@ -408,13 +407,21 @@ border-radius: 5px;
         }
         /*скрыть перед а полоску верхнюю*/
 
+
 .selected {
-  background:#DCDCDC;
+  position:relative;
+}
+
+ .layer {background:#DCDCDC;
+  position:absolute;
+  top: 385px;
+  left:0px;
+  height:230px;
+  width:360px;
 }
 
 
-
-.web-site-name {
+.web-site-name {padding-top:20px;
 text-align: center;
 margin-bottom:25px;
 }
