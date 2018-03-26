@@ -41,77 +41,98 @@
     </header>
 
     <div class="main ">
-      <div class="container clearfix">
-
+      <div class="container ">
+        <div class="main-inner clearfix">
         <div class="filters ">
            <form action="##" method="post">
              <div class="price filters-block">
-               <p class="filter-name"> СТОИМОСТЬ </p><br>
+               <p class="filter-name"> СТОИМОСТЬ </p>
                <input type="range" min="0" max="20000" step="1" value="50">
              </div>
              <div class="grid filters-block">
               <p class="filter-name"> СЕТКА: </p>
-              <label><input type="radio" name="sort-by-grid" value="adaptive" checked> Адаптивная </label><br>
-              <label><input type="radio" name="sort-by-grid" value="fixed"> Фиксированная </label><br>
-              <label><input type="radio" name="sort-by-grid" value="rubber"> Резиновая </label><br>
+              <div class="form-item">
+                <label><input type="radio" name="sort-by-grid" value="adaptive" checked> Адаптивная </label>
+              </div>
+              <div class="form-item">
+                <label><input type="radio" name="sort-by-grid" value="fixed"> Фиксированная </label>
+              </div>
+              <div class="form-item">
+                <label><input type="radio" name="sort-by-grid" value="rubber"> Резиновая </label>
+              </div>
               </div>
             <div class="features filters-block">
               <p class="filter-name"> ОСОБЕННОСТИ: </p>
-              <input type="checkbox" name="slider" checked>
-              <label> СЛАЙДЕР </label><br>
-              <input type="checkbox" name="advance" >
-              <label> БЛОК ПРЕИМУЩЕСТВА </label><br>
-              <input type="checkbox" name="news" checked >
-              <label>  НОВОСТИ </label><br>
+              <div class="form-item">
+              <label>  <input type="checkbox" name="slider" checked>
+                СЛАЙДЕР </label>
+              </div>
+              <div class="form-item">
+                <input type="checkbox" name="advance" >
+                <label> БЛОК ПРЕИМУЩЕСТВА </label>
+              </div>
+              <div class="form-item">
+                  <input type="checkbox" name="news" checked >
+                  <label>  НОВОСТИ </label>
+              </div>
+              <div class="form-item">
               <input type="checkbox" name="gallery" >
-              <label> ГАЛЕРЕЯ </label><br>
-              <input type="checkbox" name="bin" >
-              <label> КОРЗИНА </label><br>
+              <label> ГАЛЕРЕЯ </label>
             </div>
+            <div class="form-item">
+              <input type="checkbox" name="bin" >
+              <label> КОРЗИНА </label>
+            </div>
+              </div>
             <input type="submit" value="ПОКАЗАТЬ">
           </form>
-
         </div>
 
 
-        <div class="sort-by  "><!-- В ЛЕКЦИЯХ ЭТО ССЫЛКА..ТРЕУГОЛЬНИКИ СПАНЫ-->
+
+      <div class="main-inner-content">
+        <div class="sort-by clearfix "><!-- В ЛЕКЦИЯХ ЭТО ССЫЛКА..ТРЕУГОЛЬНИКИ СПАНЫ-->
           <p class="filter-name"> СОРТИРОВАТЬ: </p>
 
+        <div class="sort-by-article">
           <a href="#" class="sort-active"> ПО ЦЕНЕ </a>
           <a href="#"> ПО ТИПУ </a>
           <a href="#"> ПО НАЗВАНИЮ</a>
-
-          <span class="triangle"> do </span>
-          <span class="triangle"> up </span>
-
-
-
-
+          <span class="triangle down"> do </span>
+          <span class="triangle up"> up </span>
         </div>
+        </div>
+
+
 
         <div class="examples ">
           <div class="web-sites selected">
-            <a href=""><img src="img/img-sedona.jpg" width="360" height="575" alt="#"></a>
+            <a href="" class="web-sites-img"><img src="img/img-sedona.jpg" width="360" height="575" alt="#"></a>
             <div class="layer">
               <p class="web-site-name"> SEDONA</p>
               <span class="description-sedona"> Сайт для туристов </span>
               <a href="#" class="buy">990 руб.</a>
             </div>
           </div>
-          <div class="web-sites">
-            <a href="#"><img src="img/img-mishka.jpg" width="360" height="575" alt="#"></a>
+          <div class="web-sites selected">
+            <a href="#" class="web-sites-img"><img src="img/img-mishka.jpg" width="360" height="575" alt="#"></a>
+            <div class="layer">
+              <p class="web-site-name"> SEDONA</p>
+              <span class="description-sedona"> Сайт для туристов </span>
+              <a href="#" class="buy">990 руб.</a>
+            </div>
+          </div>
+          <div class="web-sites ">
+            <a href="" class="web-sites-img"><img src="img/img-pink.jpg" width="360" height="575" alt="#"></a>
           </div>
           <div class="web-sites">
-            <a href=""><img src="img/img-pink.jpg" width="360" height="575" alt="#"></a>
+            <a href="#" class="web-sites-img"><img src="img/img-kvast.jpg" width="360" height="575" alt="#"></a>
           </div>
           <div class="web-sites">
-            <a href="#"><img src="img/img-kvast.jpg" width="360" height="575" alt="#"></a>
+            <a href="#" class="web-sites-img"><img src="img/img-aplus.jpg" width="360" height="575" alt="#"></a>
           </div>
           <div class="web-sites">
-            <a href="#"><img src="img/img-aplus.jpg" width="360" height="575" alt="#"></a>
-          </div>
-          <div class="web-sites">
-            <a href="#"><img src="img/img-barbershop.jpg" width="360" height="575" alt="#"></a>
+            <a href="#" class="web-sites-img"><img src="img/img-barbershop.jpg" width="360" height="575" alt="#"></a>
           </div>
         </div>
         <div class="pages">
@@ -130,11 +151,13 @@
             </li>
           </ul>
         </div>
+      </div>
 
-
+    </div>
      <div class="map">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d107279.61274205093!2d32.51758813605257!3d46.649656689318554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c41ab0ce9e92c3%3A0xd7f81f4dc6fedab0!2z0J7Qv9GC0LjQvNCw!5e0!3m2!1sru!2sua!4v1520802937371" width="1300" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
     </div>
+
     </div>
    </div>
 
