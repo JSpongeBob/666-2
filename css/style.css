@@ -579,7 +579,7 @@ padding-right: 75px;}
   }
 
 
-.popup-contact {
+.popup-contact {display: none;
   position:absolute;
     left:50%;
   margin-left:-480px;
@@ -590,8 +590,10 @@ padding-right: 75px;}
   padding: 75px 100px 85px;
   box-shadow: 0px 30px 50px rgba(0,0,0, 0.7);
   color:black;
-
 }
+
+
+
 
 .popup-contact-close {position:absolute;
 
