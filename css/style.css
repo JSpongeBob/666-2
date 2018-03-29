@@ -56,7 +56,7 @@ margin-top:25px;
 display: inline-block;
 font-size:16px;
   min-width:90px;
-  margin-right: 35px;
+  margin-right: 20px;
   text-align: center;
 
 }
@@ -579,11 +579,11 @@ padding-right: 75px;}
   }
 
 
-.popup-contact {display: none;
+.popup-contact {display: none ;
   position:absolute;
     left:50%;
   margin-left:-480px;
-  top:1475px;
+  top:275px;
   width:760px;
   height:430px;
   background:white;
@@ -592,11 +592,14 @@ padding-right: 75px;}
   color:black;
 }
 
+.popup-contact-show {
+  display:block;
+}
+
 
 
 
 .popup-contact-close {position:absolute;
-
     right:70px;;
     width:21px;
     height:21px;
