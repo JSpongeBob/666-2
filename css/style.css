@@ -665,9 +665,6 @@ padding-right: 75px;}
 
 }
 
-form.popup-form {
-
-}
 
 h2 {
   padding:0;
@@ -680,14 +677,13 @@ h2 {
 }
 
 form.popup-form label{
-  font-weight: bold;
+  font-weight:bold ;
   line-height:18px;
-
 }
 
 .top input[type="text"] {
   width:100%;
-
+  margin-top:10px;
 border:2px solid #d7dcde;
 padding:15px 13px;
 border-radius:5px;
@@ -706,6 +702,7 @@ width:354px;}
 }
 
 .bottom textarea{
+    margin-top:10px;
   resize: none;
   width:100%;
   min-height:115px;
